@@ -260,4 +260,27 @@ textarea {
     page-break-after: avoid;
   }
 }
-
+body{
+  text-align: center;
+  font-family: 'Bitter', serif;
+}
+h1{
+  font-family: 'Sriracha', cursive;
+  font-size: 65pt;
+  margin: 0%;
+  color: rgb(129, 9, 9);
+  text-shadow: 2px 5px 2px rgb(49, 2, 2)
+}
+h2{
+  margin: 0;
+  padding-bottom: 20pt;
+  font-family: 'Sriracha', cursive;
+  font-size: 25pt;
+}
+.song-lyrics{
+  margin: 25pt;
+}
+.song-title{
+  background-image: url(https://d29fhpw069ctt2.cloudfront.net/photo/3762/preview/57434ba3-38ca-48d6-a57b-4e166fa7c354_1280x1280.jpg);
+  background-size: cover;
+}
