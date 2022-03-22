@@ -276,6 +276,11 @@ h1{
   color: rgb(129, 9, 9);
   text-shadow: 2px 5px 2px rgb(49, 2, 2)
 }
+@media (max-width: 600px){
+  h1{
+  font-size: 40px;
+  } 
+}
 h2{
   margin: 0;
   padding-bottom: 20pt;
@@ -284,17 +289,36 @@ h2{
   color: rgb(170, 12, 86);
   text-shadow: 2px 5px 2px rgb(219, 117, 165);
 }
+@media (max-width: 600px){
+  h2{
+  font-size: 25px;
+  } 
+}
 .song-lyrics{
   margin: 0;
   background-color:rgb(170, 12, 86);
   background: linear-gradient(rgb(170, 12, 86),rgb(212, 160, 185));
+  max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media (max-width: 600px) {
+  .song-lyrics{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  /* fix mobile site stuff */
 }
 .song-title{
   background-image: url(https://d29fhpw069ctt2.cloudfront.net/photo/3762/preview/57434ba3-38ca-48d6-a57b-4e166fa7c354_1280x1280.jpg);
   background-size: cover;
   padding: 10pt;
   padding-top: 25pt;
+  max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
+
 .heart {
   position: relative;
   width: 100px;
@@ -329,15 +353,19 @@ h2{
   color: rgb(90, 5, 45);
 }
 .coffee-style{
-  font-family: 'Chewy', cursive;
-  color: rgb(117, 107, 97);
-  text-shadow:0px 0px 0 rgb(163, 148, 133),1px 1px 0 rgb(92, 83, 74),2px 2px 0 rgb(77, 67, 57),3px 3px 0 rgb(66, 54, 42),4px 4px 0 rgb(61, 47, 34),5px 5px 0 rgb(56, 42, 28),6px 6px 0 rgb(48, 34, 21);
-  letter-spacing: 3px;
+  font-family: 'Lemonada', cursive;
+  color: rgb(139, 129, 119);
+  text-shadow:0px 0px 0 rgb(163, 148, 133),1px 1px 0 rgb(128, 113, 98),2px 2px 0 rgb(102, 86, 70),3px 3px 0 rgb(85, 69, 53),4px 4px 0 rgb(77, 61, 45),5px 5px 0 rgb(54, 41, 27),6px 6px 0 rgb(39, 29, 17);
+  letter-spacing: 5px;
   padding-left: 3px;
+  padding-right: 3px;
+  background-color: rgb(226, 216, 206);
+  border-radius: 15px;
 }
 .wine-style{
   font-family: 'Lemonada', cursive;
   color:rgb(222, 228, 167);
-  text-shadow: 2px 5px 2px rgb(61, 60, 12);
+  text-shadow: 1px 5px 1px rgb(61, 60, 12);
   letter-spacing: 3px;
 }
+
