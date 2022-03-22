@@ -278,7 +278,7 @@ h1{
 }
 @media (max-width: 600px){
   h1{
-  font-size: 40px;
+  font-size: 55px;
   } 
 }
 h2{
@@ -291,7 +291,7 @@ h2{
 }
 @media (max-width: 600px){
   h2{
-  font-size: 25px;
+  font-size: 30px;
   } 
 }
 .song-lyrics{
@@ -301,30 +301,39 @@ h2{
   max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
+  line-height: 70px;
+  padding-bottom: 40px;
 }
 @media (max-width: 600px) {
   .song-lyrics{
     font-size: 16px;
-    line-height: 30px;
+    line-height: 40px;
+    padding: 20px;
   }
   /* fix mobile site stuff */
 }
 .song-title{
   background-image: url(https://d29fhpw069ctt2.cloudfront.net/photo/3762/preview/57434ba3-38ca-48d6-a57b-4e166fa7c354_1280x1280.jpg);
   background-size: cover;
-  padding: 10pt;
-  padding-top: 25pt;
+  padding-bottom: 25pt;
+  padding-top: 35pt;
   max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 }
-
+@media (max-width: 600px){
+  .song-title{
+    padding: 20px;
+  }
+}
 .heart {
   position: relative;
   width: 100px;
   height: 90px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 15px ;
+  margin-bottom: 20px;
 }
 .heart:before,
 .heart:after {
@@ -363,9 +372,129 @@ h2{
   border-radius: 15px;
 }
 .wine-style{
-  font-family: 'Lemonada', cursive;
-  color:rgb(222, 228, 167);
+  font-family: 'Cinzel Decorative', cursive;
+  color:rgb(228, 224, 167);
   text-shadow: 1px 5px 1px rgb(61, 60, 12);
   letter-spacing: 3px;
+  padding-left: 3px;
+  font-size: 150%;
+}
+.forever-style{
+  color: rgb(232, 235, 97);
+  letter-spacing: 6px;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  padding: 6px;
+}
+.never-style{
+  font-family: 'Cinzel Decorative', cursive;
+  color: rgb(100, 10, 10);
+  text-transform: uppercase;
+  text-decoration: line-through;
+  padding: 4px;
+  font-size: 150%;
+}
+.come-get-me-style{
+  font-family: 'Cinzel Decorative', cursive;
+  color:rgb(153, 24, 24);
+  background-color:rgb(232, 235, 97);
+  padding: 6px;
+  border-radius: 20px;
+  border: 5px;
+  border-color: rgb(153, 24, 24);
+  border-style: solid;
+}
+.come-get-me-style:hover{
+  color:rgb(232, 235, 97);
+  background-color:rgb(153, 24, 24);
+  padding: 6px;
+  border-radius: 20px;
+  border: 5px;
+  border-color:rgb(232, 235, 97);
+  border-style: solid;
+}
+.scares-style{
+  color: rgb(134, 12, 12);
+  text-shadow: 0px 2px 0px rgb(82, 7, 7);
+  font-family: 'Creepster', cursive;
+  font-size: 150%;
+  letter-spacing: 3px;
+  padding: 4px;
+}
+.wild-style{
+  font-family: 'Irish Grover', cursive;
+  text-transform: uppercase;
+  color: rgb(110, 231, 110);
+  letter-spacing: 4px;
+  font-size: 150%;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+.beautiful-style{
+  color: rgb(110, 6, 110);
+  font-family: 'Great Vibes', cursive;
+  letter-spacing: 3px;
+  font-size: 165%;
+  padding: 6px;
+}
+.crazy-style{
+  color: rgb(187, 16, 130);
+  font-family: 'Irish Grover', cursive;
+  text-transform: uppercase;
+  font-size: 150%;
+  letter-spacing: 4px;
+  padding-left: 7px;
+  background-color:rgb(47, 224, 71);
+  padding: 6px;
+  border-radius: 20px;
+  border: 5px;
+  border-color:rgb(187, 16, 130);
+  border-style: solid;
+}
+.crazy-style:hover{
+  font-family: 'Irish Grover', cursive;
+  text-transform: uppercase;
+  font-size: 150%;
+  letter-spacing: 4px;
+  padding-left: 7px;
+  color:rgb(47, 224, 71);
+  background-color:rgb(187, 16, 130);
+  padding: 6px;
+  border-radius: 20px;
+  border: 5px;
+  border-color: rgb(47, 224, 71);
+  border-style: dotted;
+}
+.amaze-style{
+  color: rgb(240, 255, 35);
+  font-family: 'Great Vibes', cursive;
+  letter-spacing: 5px;
+  font-size: 165%;
+  padding: 6px;
+}
+.afraid-style{
+  color: rgb(161, 15, 15);
+  text-shadow: 0px 2px 0px rgb(82, 7, 7);
+  font-family: 'Creepster', cursive;
+  font-size: 150%;
+  letter-spacing: 3px;
+  padding: 4px;
+}
+.heart-style{
+  color:rgb(168, 2, 113) ;
+  font-family: 'Great Vibes', cursive;
+  letter-spacing: 5px;
+  font-size: 165%;
+  padding: 6px;
+}
+.crazy-style-2{
+  color: rgb(187, 16, 130);
+  font-family: 'Irish Grover', cursive;
+  text-decoration: underline 5px;
+  text-transform: uppercase;
+  text-decoration-style:dotted;
+  padding: 6px;
+  font-size: 150%;
+  letter-spacing: 4px;
 }
 
