@@ -328,3 +328,9 @@ h2{
 .chorus{
   color: rgb(90, 5, 45);
 }
+.coffee-style{
+  font-family: 'Chewy', cursive;
+  color: rgb(117, 82, 50);
+  text-shadow: 2px 5px 2px rgb(20, 1, 1);
+  letter-spacing: 3px;
+}
