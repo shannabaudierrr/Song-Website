@@ -330,7 +330,14 @@ h2{
 }
 .coffee-style{
   font-family: 'Chewy', cursive;
-  color: rgb(117, 82, 50);
-  text-shadow: 2px 5px 2px rgb(20, 1, 1);
+  color: rgb(117, 107, 97);
+  text-shadow:0px 0px 0 rgb(163, 148, 133),1px 1px 0 rgb(92, 83, 74),2px 2px 0 rgb(77, 67, 57),3px 3px 0 rgb(66, 54, 42),4px 4px 0 rgb(61, 47, 34),5px 5px 0 rgb(56, 42, 28),6px 6px 0 rgb(48, 34, 21);
+  letter-spacing: 3px;
+  padding-left: 3px;
+}
+.wine-style{
+  font-family: 'Lemonada', cursive;
+  color:rgb(222, 228, 167);
+  text-shadow: 2px 5px 2px rgb(61, 60, 12);
   letter-spacing: 3px;
 }
