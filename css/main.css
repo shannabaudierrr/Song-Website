@@ -263,9 +263,6 @@ textarea {
 body{
   text-align: center;
   font-family: 'Bitter', serif;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
   font-size: 20pt;
   line-height: 40pt;
 }
@@ -283,6 +280,7 @@ h1{
 }
 h2{
   margin: 0;
+  padding-top: 20px;
   padding-bottom: 20pt;
   font-family: 'Sriracha', cursive;
   font-size: 25pt;
@@ -295,26 +293,16 @@ h2{
   } 
 }
 .song-lyrics{
-  margin: 0;
   background-color:rgb(170, 12, 86);
   background: linear-gradient(rgb(170, 12, 86),rgb(212, 160, 185));
-  max-width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-  line-height: 70px;
-  padding-bottom: 40px;
-}
-@media (max-width: 600px) {
-  .song-lyrics{
-    font-size: 16px;
-    line-height: 40px;
-    padding: 20px;
-  }
-  /* fix mobile site stuff */
+  width: 100%;
 }
 .song-title{
   background-image: url(https://d29fhpw069ctt2.cloudfront.net/photo/3762/preview/57434ba3-38ca-48d6-a57b-4e166fa7c354_1280x1280.jpg);
-  background-size: cover;
+  background-size:contain;
+  width: 100%;
+}
+.song-title-text{
   padding-bottom: 25pt;
   padding-top: 35pt;
   max-width: 1000px;
@@ -322,10 +310,10 @@ h2{
 	margin-right: auto;
 }
 @media (max-width: 600px){
-  .song-title{
+  .song-title-text{
     padding: 20px;
   }
-}
+}  
 .heart {
   position: relative;
   width: 100px;
@@ -356,11 +344,29 @@ h2{
 .first-verse{
   color: white;
   padding-top: 20pt;
-  padding-bottom: 20pt;
+  max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+  line-height: 70px;
+  padding-bottom: 20px;
 }
 .chorus{
   color: rgb(90, 5, 45);
+  padding-top: 20pt;
+  max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+  line-height: 70px;
+  padding-bottom: 20px;
 }
+@media (max-width: 600px) {
+  .first-verse,
+  .chorus{
+    font-size: 16px;
+    line-height: 40px;
+    padding: 20px;
+  }
+}  
 .coffee-style{
   font-family: 'Lemonada', cursive;
   color: rgb(139, 129, 119);
@@ -497,4 +503,20 @@ h2{
   font-size: 150%;
   letter-spacing: 4px;
 }
+.bottom-image{
+  background-image: url(https://media.istockphoto.com/photos/sky-cloud-pink-love-sweet-love-color-tone-for-wedding-card-background-picture-id1180184210?k=20&m=1180184210&s=170667a&w=0&h=rCohiJHWHMLADyf0bUNVS1z0xZ34ZytZY8MNjWsmoPs=);
+  background-size:cover;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color:rgb(129, 9, 9);
+  font-size: 45px;
+  font-family: 'Sriracha', cursive;
+  text-shadow:2px 2px 2px rgb(49, 2, 2) ;
+}
+@media (max-width: 600px){
+  .bottom-image{
+  font-size: 30px;
+  } 
+}
+
 
